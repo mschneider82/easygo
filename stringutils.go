@@ -8,9 +8,9 @@ import (
 )
 
 // StringReverse reversed a string
-func StringReverse(s string) (result string) {
+func StringReverse(s string) (reversedString string) {
 	for _, v := range s {
-		result = string(v) + result
+		reversedString = string(v) + reversedString
 	}
 	return
 }
