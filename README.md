@@ -1,4 +1,4 @@
-![bruno gopher](gopherbig.png)
+![bruno gopher](gopher.png)
 
 easy come easy go!
 
