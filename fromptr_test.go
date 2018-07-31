@@ -10,9 +10,10 @@ func TestPtrToString(t *testing.T) {
 }
 
 func TestPtrToStrings(t *testing.T) {
-    s := []string{}"some string"}
-	if PtrToString(&s) != "some string" {
-		t.Errorf("expected a string")
+	s := []string{"some string"}
+	newStr := PtrToStrings(&s)
+	if newStr[0] != s[0] {
+		t.Errorf("expected the same string")
 	}
 }
 
